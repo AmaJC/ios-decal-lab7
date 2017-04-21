@@ -108,4 +108,12 @@
             return false;
     }
 }
+- (void)sqrtCalculationString {
+    if([_calculationString hasPrefix:@"-"]) {
+        _calculationString = @"Error";
+    } else {
+        double input = [_calculationString doubleValue];
+        _calculationString = [NSString stringWithFormat:@"%.02f", sqrt(input) ];
+    }
+}
 @end

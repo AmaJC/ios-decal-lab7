@@ -56,5 +56,10 @@
         [self updatecalculationView];
     };
 }
+- (IBAction)sqrtPressed:(id)sender {
+    [_Cbrain sqrtCalculationString];
+    [self updatecalculationView];
+}
+
 
 @end

@@ -68,9 +68,12 @@
                                 <rect key="frame" x="281.5" y="160" width="93.5" height="101.5"/>
                                 <color key="backgroundColor" red="0.99215686274509807" green="0.50196078431372548" blue="0.035294117647058823" alpha="1" colorSpace="calibratedRGB"/>
                                 <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="60"/>
-                                <state key="normal" title="÷">
+                                <state key="normal" title="√">
                                     <color key="titleColor" name="alternateSelectedControlTextColor" catalog="System" colorSpace="catalog"/>
                                 </state>
+                                <connections>
+                                    <action selector="sqrtPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="bsI-id-dkz"/>
+                                </connections>
                             </button>
                             <button opaque="NO" tag="1" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="sFK-bO-Rlj">
                                 <rect key="frame" x="0.0" y="261.5" width="94" height="101"/>

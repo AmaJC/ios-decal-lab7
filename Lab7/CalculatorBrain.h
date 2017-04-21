@@ -27,5 +27,6 @@ typedef enum actionType : long {
 - (BOOL)hasDecimalPlaces: (double)operand1 _:(double)operand2;
 - (void)tangentCalculationString;
 - (void)commitAction;
+- (void)sqrtCalculationString;
 - (BOOL)recognizeAction: (int)tag;
 @end
